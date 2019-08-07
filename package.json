@@ -15,5 +15,14 @@
   "devDependencies": {
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman-kumar-edith/react-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aman-kumar-edith/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/aman-kumar-edith/react-boilerplate#readme"
 }
