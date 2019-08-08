@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  background-color: black;
+  color: dodgerblue;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: lowercase;
+}
