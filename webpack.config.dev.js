@@ -8,5 +8,6 @@ module.exports = merge(baseConfig, {
     port: 9876,
     open: true,
     hot: true
-  }
+  },
+  devtool: "source-map"
 });

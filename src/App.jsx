@@ -1,10 +1,12 @@
 import React from "react";
 
-const App = () => (
-  <div>
-    <h1 style={style}>Hello World</h1>
-  </div>
-);
+const App = () => {
+  return (
+    <div>
+      <h1 style={style}>Hello World</h1>
+    </div>
+  );
+};
 
 const style = {
   color: "dodgerblue",
