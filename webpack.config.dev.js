@@ -5,7 +5,7 @@ module.exports = merge(baseConfig, {
   mode: "development",
   watch: true,
   devServer: {
-    port: 9876,
+    port: 9877,
     open: true,
     hot: true
   },
