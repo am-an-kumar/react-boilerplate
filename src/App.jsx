@@ -10,7 +10,7 @@ class App extends React.Component {
     const { count } = this.state;
     return (
       <div>
-        <h1>Hello World!!!</h1>
+        <h1>Hello World</h1>
         <h2
           style={{
             color: count < 0 ? "red" : count > 0 ? "seagreen" : "black"
