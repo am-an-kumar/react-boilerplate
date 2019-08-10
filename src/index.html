@@ -8,6 +8,7 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- html-webpack-plugin parses this. Node sets the environment based on the script you run, so we add the CDN links based on NODE_ENV -->
     <% if(process.env.NODE_ENV === 'production') { %>
     <script
       crossorigin
