@@ -10,5 +10,9 @@ module.exports = merge(baseConfig, {
       openAnalyzer: false,
       reportFilename: "bundle_size_report.html"
     })
-  ]
+  ],
+  externals: {
+    react: "React",
+    "react-dom": "ReactDOM"
+  }
 });
