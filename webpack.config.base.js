@@ -1,46 +1,47 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "app_bundle.js"
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'app_bundle.js',
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        loader: "babel-loader",
+        loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
           presets: [
             [
-              "@babel/preset-env",
+              '@babel/preset-env',
               {
-                targets: ["last 2 versions", "not dead", "not < 2%"],
-                useBuiltIns: "entry"
-              }
+                targets: ['last 2 versions', 'not dead', 'not < 2%'],
+                useBuiltIns: 'entry',
+                corejs: '2.6.9',
+              },
             ],
-            "@babel/preset-react"
+            '@babel/preset-react',
           ],
           plugins: [
-            "@babel/plugin-proposal-class-properties",
-            "react-hot-loader/babel",
-            "@babel/plugin-syntax-dynamic-import"
-          ]
-        }
+            '@babel/plugin-proposal-class-properties',
+            'react-hot-loader/babel',
+            '@babel/plugin-syntax-dynamic-import',
+          ],
+        },
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
-        exclude: /node_modules/
-      }
-    ]
+        use: ['style-loader', 'css-loader'],
+        exclude: /node_modules/,
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html"
-    })
-  ]
-};
+      template: './src/index.html',
+    }),
+  ],
+}

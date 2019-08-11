@@ -2,7 +2,7 @@
   "name": "react-boilerplate",
   "version": "0.1.0",
   "description": "Boilerplate setup for react projects",
-  "main": "deadshot.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.prod.js",
@@ -14,7 +14,7 @@
   "keywords": [
     "react-boilerplate"
   ],
-  "author": "Aman",
+  "author": "Aman Kumar",
   "license": "ISC",
   "husky": {
     "hooks": {
