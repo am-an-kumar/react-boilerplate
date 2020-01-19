@@ -62,10 +62,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aman-kumar-edith/react-boilerplate.git"
+    "url": "git+https://github.com/am-an-kumar/react-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/aman-kumar-edith/react-boilerplate/issues"
+    "url": "https://github.com/am-an-kumar/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/aman-kumar-edith/react-boilerplate#readme"
+  "homepage": "https://github.com/am-an-kumar/react-boilerplate#readme"
 }
